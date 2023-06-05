@@ -4,6 +4,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 
+// import 'notificacao.dart'
+// import 'dm.dart'
+// import 'timeline.dart'
+
+
 class PaginaInicial extends StatelessWidget {
   const PaginaInicial({super.key});
 
@@ -18,12 +23,14 @@ class PaginaInicial extends StatelessWidget {
             icon: Icon(Icons.add_box_outlined),
           ),
           IconButton(
-            onPressed: () {},
+            onPressed: () {
+              Navigator.pushNamed(context, '/notificacao');
+            },
             icon: Icon(Icons.favorite_outline),
           ),
           IconButton(
             onPressed: () {
-              Navigator.pushNamed(context, '/config');
+              Navigator.pushNamed(context, '/dm');
             },
             icon: Icon(Icons.send_outlined),
           )
@@ -46,7 +53,7 @@ class PaginaInicial extends StatelessWidget {
                   CircleAvatar(
                     radius: 30,
                     backgroundColor: Colors.white,
-                    backgroundImage: AssetImage("assets/images/profilepic.png"),
+                    backgroundImage: AssetImage("assets/images/pedroluc4as.jpg"),
                   ),
                   Text("pedroluc4as")
                 ],
@@ -59,7 +66,7 @@ class PaginaInicial extends StatelessWidget {
                   CircleAvatar(
                     radius: 30,
                     backgroundColor: Colors.white,
-                    backgroundImage: AssetImage("assets/images/profilepic.png"),
+                    backgroundImage: AssetImage("assets/images/nike.jpg"),
                   ),
                   Text("Nike")
                 ],
@@ -72,7 +79,7 @@ class PaginaInicial extends StatelessWidget {
                   CircleAvatar(
                     radius: 30,
                     backgroundColor: Colors.white,
-                    backgroundImage: AssetImage("assets/images/profilepic.png"),
+                    backgroundImage: AssetImage("assets/images/adidas.jpg"),
                   ),
                   Text("adidas")
                 ],
