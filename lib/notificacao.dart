@@ -56,6 +56,10 @@ class Notificacao extends StatelessWidget {
               radius: 25,
               backgroundImage: AssetImage("assets/images/p2.jpg"),
             ),
+            trailing: ElevatedButton(
+              onPressed: () {},
+              child: Text("Seguir"),
+            ),
           ),
           ListTile(
             onTap: () {},
@@ -64,6 +68,10 @@ class Notificacao extends StatelessWidget {
             leading: CircleAvatar(
               radius: 25,
               backgroundImage: AssetImage("assets/images/p1.jpeg"),
+            ),
+            trailing: ElevatedButton(
+              onPressed: () {},
+              child: Text("Aceitar"),
             ),
           ),
           ListTile(
@@ -74,6 +82,7 @@ class Notificacao extends StatelessWidget {
               radius: 25,
               backgroundImage: AssetImage("assets/images/p3.jpg"),
             ),
+            trailing: Image.asset("assets/images/cerveja.jpg"),
           ),
           ListTile(
             onTap: () {},
@@ -83,6 +92,7 @@ class Notificacao extends StatelessWidget {
               radius: 25,
               backgroundImage: AssetImage("assets/images/p8.jpg"),
             ),
+            trailing: Image.asset("assets/images/dad.jpg"),
           ),
           ListTile(
             onTap: () {},
@@ -92,6 +102,10 @@ class Notificacao extends StatelessWidget {
               radius: 25,
               backgroundImage: AssetImage("assets/images/p9.jpg"),
             ),
+            trailing: ElevatedButton(
+              onPressed: () {},
+              child: Text("Seguir"),
+            ),
           ),
           ListTile(
             onTap: () {},
@@ -100,6 +114,10 @@ class Notificacao extends StatelessWidget {
             leading: CircleAvatar(
               radius: 25,
               backgroundImage: AssetImage("assets/images/p10.jpg"),
+            ),
+            trailing: ElevatedButton(
+              onPressed: () {},
+              child: Text("Seguir"),
             ),
           ),
         ],
