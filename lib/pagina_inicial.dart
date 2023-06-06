@@ -116,6 +116,173 @@ class PaginaInicial extends StatelessWidget {
           Divider(
             color: Colors.black,
           ),
+          ListTile(
+              title: Text("pedroluc4as"),
+              subtitle: Row(
+                children: [
+                  Text("Watarru, Austrália"),
+                ],
+              ),
+              leading: CircleAvatar(
+                backgroundImage: AssetImage(
+                    "assets/images/pedroluc4as.jpg"),
+              ),
+              trailing: Column(
+                children: [
+                  Icon(Icons.more_vert),
+                ],
+              ),
+              onTap: () {},
+            ),
+            Divider(),
+            ListTile(
+                title: Column(
+                  children: [
+                    Image.network(
+                      'https://www.thepuzzlecollections.com/wp-content/uploads/2021/07/ravensburger-beautiful-vista-500-large-pc1.jpg',
+                      width: 500,
+                      height: 200,
+                      fit: BoxFit.cover,
+                    ),
+                    SizedBox(
+                      height: 30,
+                    )
+                  ],
+                ),
+                subtitle: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text("1,559 likes",
+                        style: TextStyle(
+                            fontSize: 12,
+                            color: Colors.black,
+                            fontWeight: FontWeight.bold)),
+                    Text(
+                        "spenceralg, jakestrong,......likes"),
+                  ],
+                )),
+                ListTile(
+              subtitle: Text("View all 549 comemnts"),
+            ),
+            ListTile(
+              title: Row(
+                children: [
+                  IconButton(
+                    onPressed: () {},
+                    icon: Icon(
+                      Icons.favorite_outline,
+                      color: Colors.black,
+                    ),
+                  ),
+                  IconButton(
+                    onPressed: () {},
+                    icon: Icon(
+                      Icons.comment_outlined,
+                      color: Colors.black,
+                    ),
+                  ),
+                  IconButton(
+                    onPressed: () {},
+                    icon: Icon(
+                      Icons.send,
+                      color: Colors.black,
+                    ),
+                  ),
+                ],
+              ),
+              trailing: IconButton(
+                onPressed: () {},
+                icon: Icon(
+                  Icons.bookmark_outline,
+                  color: Colors.black,
+                ),
+              ),
+            ),
+            Divider(),
+            
+            ListTile(
+              title: Text("nike"),
+              subtitle: Row(
+                children: [
+                  Text("USA"),
+                ],
+              ),
+              leading: CircleAvatar(
+                backgroundImage: AssetImage(
+                    "assets/images/nike.jpg"),
+              ),
+              trailing: Column(
+                children: [
+                  Icon(Icons.more_vert),
+                ],
+              ),
+              onTap: () {},
+            ),
+            Divider(),
+            ListTile(
+                title: Column(
+                  children: [
+                    Image.network(
+                      'https://images5.alphacoders.com/632/632664.jpg',
+                      width: 500,
+                      height: 200,
+                      fit: BoxFit.cover,
+                    ),
+                    SizedBox(
+                      height: 30,
+                    )
+                  ],
+                ),
+                subtitle: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text("1,005,003 likes",
+                        style: TextStyle(
+                            fontSize: 12,
+                            color: Colors.black,
+                            fontWeight: FontWeight.bold)),
+                    Text(
+                        "powerjacke, stringpi,......likes"),
+                  ],
+                )),
+            ListTile(
+              subtitle: Text("View all 7k Coments"),
+            ),
+            ListTile(
+              title: Row(
+                children: [
+                  IconButton(
+                    onPressed: () {},
+                    icon: Icon(
+                      Icons.favorite_outline,
+                      color: Colors.black,
+                    ),
+                  ),
+                  IconButton(
+                    onPressed: () {},
+                    icon: Icon(
+                      Icons.comment_outlined,
+                      color: Colors.black,
+                    ),
+                  ),
+                  IconButton(
+                    onPressed: () {},
+                    icon: Icon(
+                      Icons.send,
+                      color: Colors.black,
+                    ),
+                  ),
+                ],
+              ),
+              trailing: IconButton(
+                onPressed: () {},
+                icon: Icon(
+                  Icons.bookmark_outline,
+                  color: Colors.black,
+                ),
+              ),
+            ),
+            Divider(),
         ],
         
       ),
